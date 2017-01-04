@@ -21,5 +21,8 @@ Behavioral
   中介者模式,备忘录模式,解释器模式,访问者模式
   
 src/com.dp.creational/singleton/*.java
+
     com.dp.structural/facade/*.java
+    
+    
     com.dp.behavioral/observer/*.java
