@@ -3,6 +3,7 @@
 Learn Java Design Pattern
 
 GOF 23种常见设计模式 + 简单工厂设计模式
+参考资料链接: https://gof.quanke.name
 
 设计模式可分为 
    创建型(Creational,6),用于描述如何创建对象
@@ -18,3 +19,22 @@ Structural
 Behavioral
   观察者模式,迭代器模式,策略模式,命令模式,模板方法模式,状态模式,职责链模式,
   中介者模式,备忘录模式,解释器模式,访问者模式
+  
+src
+ ||| 
+  com.dp.creational
+   |||
+    singleton
+    |||
+     *.java
+   com.dp.structural
+   |||
+    facade
+    |||
+     *.java
+   |||
+    com.dp.behavioral
+    |||
+     observer
+     |||
+      *.java
