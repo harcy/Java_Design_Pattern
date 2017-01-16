@@ -11,6 +11,10 @@ package com.dp.structural.bridge;
  */
 public class BridgePatternClient {
     public static void main(String[] args) {
+        Implementor implementor = new LinuxConcreteImplementor();
+        Abstraction abstraction = new GifRefinedAbstraction(implementor);
+        abstraction.parseFile();
+        abstraction.drawImage();
 
     }
 }
